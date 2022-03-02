@@ -1,9 +1,6 @@
-print("print leap year between 2 given years")
-print("enter start year")
-startyear=int(input())
-endyear=int(input("enter end year")
-print("list of leap year")
-for i in range(startyear,endyear):
-if (year % 4) == 0 and (year % 100) == 0 or if (year % 400) == 0:
- print(year)
-
+c=int(input("enter the current year"))
+f=int(input("enter the future year"))
+print("The leap years are")
+for i in range(c,f+1):
+    if(i%4==0 and i%100==0 or i%400==0):
+        print(i)
